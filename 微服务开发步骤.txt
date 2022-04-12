@@ -1,0 +1,12 @@
+
+1、建立 module (建议微服务模块)
+
+2、改 pom.xml (将所用到的 jar 包、依赖添加到 pom.xml 中)
+
+3、编写 application.yml 配置文件
+
+4、编写 springboot 主启动类
+
+5、编写业务类 ：dao、service、controller ...
+
+6、启动测试
