@@ -22,6 +22,7 @@ public class OrderController {
     public String consumerConsul(){
         System.out.println("我是服务调用者");
         System.out.println("master-01-------->   我是微服务调用者");
+        System.out.println("master-01-- 第二次提交 -------->   我是微服务调用者");
         return restTemplate.getForObject(CONSUL_URL+"/payment/consul",String.class);
     }
 }
