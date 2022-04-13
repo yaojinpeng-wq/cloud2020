@@ -25,6 +25,7 @@ public class OrderController {
         System.out.println("master---主分支提交-->主分支的为服务调用者");
         System.out.println("master-01-- 第二次提交 -------->   我是微服务调用者");
         System.out.println("Github 提交到远程库");
+        System.out.println("Github push到本地仓库");
         return restTemplate.getForObject(CONSUL_URL+"/payment/consul",String.class);
     }
 }
